@@ -1,2 +1,52 @@
 ﻿body {
 }
+
+div.header-content-inner {
+     background-image: url('../Images/home9.jpg');
+     height: 450px;    
+}
+h1 {    
+    padding-top: 150px;
+    text-align : right;
+    margin-right: 100px;
+    font-family:  "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    color: darkred;
+    font-weight: 600;
+    font-size: 50px;
+}
+/* 
+p#home{
+    padding-top: 20px;
+    text-align : right;
+    margin-right: 100px;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+    color: purple ;
+    font-weight: 500;
+    font-size: 30px;
+} 
+*/
+.navbar-default .navbar-nav > li > a {
+    color: darkgreen;
+    font-size: 25px;
+    font-family: Copperplate, "Copperplate Gothic Light", fantasy;
+}
+
+.bg-primary {
+    background-image: url('../Images/com.jpg');
+     height: 450px;  
+}
+.no-padding, div.row.nogutter{
+    height: 480px;    
+}
+section#projects.no-padding{
+     background-color:darkred;
+     padding-right:50px;
+}
+section#contact{
+    background-image: url('../Images/contact-me.png') ;
+    background-repeat:no-repeat;
+    background-position:top;
+    height: 300px;
+    background-color: antiquewhite;  
+    
+}
