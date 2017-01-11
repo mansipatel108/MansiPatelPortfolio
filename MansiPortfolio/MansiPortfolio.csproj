@@ -71,13 +71,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Images\cake.png" />
-    <Content Include="Images\com.jpg" />
     <Content Include="Images\contact-me.png" />
+    <Content Include="Images\dental.png" />
     <Content Include="Images\home9.jpg" />
     <Content Include="Images\image1.png" />
     <Content Include="Images\images4.jpg" />
     <Content Include="Images\lesso12.png" />
     <Content Include="Images\my.jpg" />
+    <Content Include="Images\pavliks-logo.jpg" />
     <Content Include="Images\todos.png" />
     <Content Include="packages.config" />
     <Content Include="Site.Master" />

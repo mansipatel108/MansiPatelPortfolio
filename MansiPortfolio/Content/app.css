@@ -1,19 +1,24 @@
 ﻿body {
+    background-repeat: space;
+    background-size: cover;
+    background-color: rgb(232, 224, 220);
 }
 
-div.header-content-inner {
-     background-image: url('../Images/home9.jpg');
-     height: 450px;    
+.carousel-inner {
+    margin-top: 50px;
+    background-image: url('../Images/home9.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    height: 480px;
 }
-h1 {    
-    padding-top: 150px;
-    text-align : right;
-    margin-right: 100px;
-    font-family:  "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+
+.carousel-caption {
+    top: 21em;
     color: darkred;
-    font-weight: 600;
-    font-size: 50px;
+    font-family: Aclonica;
 }
+/* padding-left: 1000px; */
+
 /* 
 p#home{
     padding-top: 20px;
@@ -24,29 +29,67 @@ p#home{
     font-weight: 500;
     font-size: 30px;
 } 
-*/
+
+.navbar-default .navbar-nav > li > a, a.page {
+    .navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover{ */
 .navbar-default .navbar-nav > li > a {
     color: darkgreen;
     font-size: 25px;
     font-family: Copperplate, "Copperplate Gothic Light", fantasy;
 }
-
+/* ABOUT*/
 .bg-primary {
-    background-image: url('../Images/com.jpg');
-     height: 450px;  
+    padding-top: 20px;
+    background-color: black;
+    height: 540px;
 }
-.no-padding, div.row.nogutter{
-    height: 480px;    
+
+p.text-faded {
+    padding-top: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
 }
-section#projects.no-padding{
-     background-color:darkred;
-     padding-right:50px;
+/*Skills */
+section#skills.secPad.white {
+    padding-top: 20px;
+    height: 540px;
+    background-color: #00004C;
 }
-section#contact{
-    background-image: url('../Images/contact-me.png') ;
-    background-repeat:no-repeat;
-    background-position:top;
-    height: 300px;
-    background-color: antiquewhite;  
-    
+div.col-lg-4.col-sm-6.col-xs-6.skilltitle{
+    font-size:17px;
+    color: aliceblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/*Experience */
+section#experience.secPad{
+ padding-top: 20px;
+    height: 540px;
+    background-color: cornsilk;
+}
+h5{
+    color:#652154;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h6{
+    color:firebrick;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+div#ex1,div#ex2,div#ex3{
+    color:saddlebrown;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+/* PROJECTS*/
+
+section#projects.no-padding {
+    background-color: darkred;
+  padding-top: 20px;
+    height: 560px;
+}
+img.img-rounded{
+    border:double 3px black;
+    border-radius:15px 50px 30px;
+}
+section#contact {
+    height: 400px;
+    background-color: #EED2EE;
 }
