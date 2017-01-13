@@ -4,6 +4,7 @@
     <link href="Content/app.css" rel="stylesheet" />
     <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
     <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Aclonica" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Philosopher" />
     <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -48,23 +49,32 @@
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
             </ol>
-            <div class="carousel-inner">
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                    <img src="Images/sql.png" alt="Chania">
+                    <div class="carousel-caption">
+                        <h1 style="font-family: Aclonica;">Database Developer</h1>
+                    </div>
+                </div>
                 <div class="item">
+                    <img src="Images/net.png" alt="sql" />
                     <div class="carousel-caption">
                         <h1 style="font-family: Aclonica;">Computer Programmer</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
                     </div>
                 </div>
-                <div class="item active">
-                    <div class="carousel-caption">
-                        <h1 style="font-family: Aclonica;">Web Developer</h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                    </div>
-                </div>
+
                 <div class="item">
+                    <img src="Images/html.png" alt="web" />
                     <div class="carousel-caption">
-                        <h1 style="font-family: Aclonica;">Web Designer </h1>
-                        <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
+                        <h1 style="font-family: Aclonica;">web Developer</h1>
+                    </div>
+                </div>
+
+                <div class="item">
+                    <img src="Images/bi.png" alt="bi" />
+                    <div class="carousel-caption">
+                        <h1 style="font-family: Aclonica;">Business Intelligent</h1>
                     </div>
                 </div>
             </div>
@@ -84,8 +94,8 @@
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
                     <br />
-                    <h2 style="font-family: Georgia, 'Times New Roman', Times, serif" class="section-heading">I am Mansi Patel, a Programmer & Designer </h2>
-                    <hr class="light">
+                    <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; font-weight: 600;" class="section-heading">Mansi Patel, Programmer & Designer </h2>
+
                     <p class="text-faded">
                         I am a student currently studying at Georgian College, Barrie, ON in a Computer Programmer (COPR) diploma program and seeking a professional position in an organization to dedicate myself to the IT field as a keystone member of the team while continuing my education to further improve my performance in the workplace.
                         <br />
@@ -104,7 +114,7 @@
             <div class="heading text-center">
                 <!-- Heading -->
                 <br />
-                <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; color: antiquewhite;">My Skills</h2>
+                <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; color: antiquewhite; font-weight: 600;">My Skills</h2>
             </div>
             <br />
             <div class="row">
@@ -251,74 +261,39 @@
     <section id="experience" class="secPad">
         <br />
         <div class="heading text-center">
-            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; color: #652154;">Professional Experience</h2>
+            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; color: #652154; font-weight: 600;">Professional Experience</h2>
         </div>
         <br />
+        <br />
         <div class="ex">
-            <div class="col-lg-10 col-lg-offset-1">
+           <div class="col-xs-12">
                 <div class="row">
                     <!-- People  Imgage and paragraph   -->
-                    <div class="col-md-4 col-sm-6">
+                   <div class="col-md-6 offset-md-3-centered">
                         <div class="service-item">
                             <span class="image">
                                 <img src="Images/pavliks-logo.jpg">
                             </span>
                             <br />
-                            <h5>Web / .NET Developer</h5>
-                            <h6>from September, 2016 – January, 2017 </h6>
-                            <h6><i>Pavliks.com, Barrie, ON, Canada </i></h6>
-                            <div id="ex1">
-                                <li>Contributed externally to the organization by creating plugins and workflows according to the project’s requirements, designing and customizing CRM (2015), testing for sign-up process, shopping cart functionality using Telerik Test Studio and end to end testing using Test Scripts
-                                </li>
-                                <li>Ability to create console application in ASP.NET to interact with CRM
-                                </li>
-                                <li>Experience on creating and converting SQL Report to Fetch XML Reports and vice versa
-                                </li>
-                                <li>Understand and able to develop website using Telerik Sitefinity and The Portal Connector</li>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4 col-sm-6">
-                        <div class="service-item">
-                            <span class="image">
-                                <img src="Images/pavliks-logo.jpg">
-                            </span>
                             <br />
-                            <h5>Web / .NET Developer Co-op</h5>
+                            <h5 style="color: #652154; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 600;">Web / .NET Developer Co-op</h5>
                             <h6>from September, 2016 – January, 2017 </h6>
-                            <h6><i>Pavliks.com, Barrie, ON, Canada </i></h6>
-                            <div id="ex2">
-                                <li>Contributed externally to the organization by creating plugins and workflows according to the project’s requirements, designing and customizing CRM (2015), testing for sign-up process, shopping cart functionality using Telerik Test Studio and end to end testing using Test Scripts
-                                </li>
-                                <li>Ability to create console application in ASP.NET to interact with CRM
-                                </li>
-                                <li>Experience on creating and converting SQL Report to Fetch XML Reports and vice versa
-                                </li>
-                                <li>Understand and able to develop website using Telerik Sitefinity and The Portal Connector</li>
-                            </div>
+                            <h5 style="color: #000080;"><i>Pavliks.com, Barrie, ON, Canada </i></h5>
                         </div>
                     </div>
 
-                    <div class="col-md-4 col-sm-6">
+                    <div class="col-md-6 offset-md-3 centered">
                         <div class="service-item">
                             <span class="image">
                                 <img src="Images/dental.png">
                             </span>
                             <br />
-                            <h5>Web Designer Co-op</h5>
+                            <br />
+                            <h5 style="color: #652154; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; font-weight: 600;">Web Designer Co-op</h5>
                             <h6>from September 2015 – January 2016 </h6>
-                            <h6><i>Adentaloffice.com, Barrie, ON, Canada</i></h6>
-                            <div id="ex3">
-                                <li>Designed signage TV presentations and flash movies </li>
-
-                                <li>Update and develop office website and social media links - make it mobile friendly  </li>
-                                <li>Translated business requirements into web application </li>
-                                <li>Made short video about office’s services using Moovly (Cloud base online software to make videos)</li>
-                            </div>
+                            <h5 style="color: #000080;"><i>Adentaloffice.com, Barrie, ON, Canada</i></h5>
                         </div>
                     </div>
-
                 </div>
                 <!-- /.row (nested) -->
             </div>
@@ -330,7 +305,7 @@
     <section class="no-padding" id="projects">
         <br />
         <div class="heading text-center">
-            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; color:azure">Projects</h2>
+            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; color: azure; font-weight: 600;">My Projects</h2>
         </div>
         <br />
         <!--Project Links and Images -->
@@ -338,12 +313,12 @@
             <div class="row">
                 <div class="col-xs-6 col-md-4">
                     <a href="http://mansi.azurewebsites.net/">
-                     <img src="Images/my.jpg" width="300" height="200" class="img-rounded" alt="portfolio">
+                        <img src="Images/my.jpg" width="300" height="200" class="img-rounded" alt="portfolio">
                     </a>
-                </div> 
+                </div>
                 <div class="col-xs-6 col-md-4">
                     <a href="http://aspnet-portfolio.azurewebsites.net/">
-                       <img src="Images/image1.png" width="300" height="200" class="img-rounded" alt="asp-portfolio">
+                        <img src="Images/image1.png" width="300" height="200" class="img-rounded" alt="asp-portfolio">
                     </a>
                 </div>
                 <div class="col-xs-6 col-md-4">
@@ -356,7 +331,7 @@
             <div class="row">
                 <div class="col-lg-4 col-sm-6 col-xs-6">
                     <a href="http://gc200303640.computerstudi.es/portfolio/home.html">
-                       <img src="Images/images4.jpg"  width="300" height="200" class="img-rounded" alt="html-portfolio">
+                        <img src="Images/images4.jpg" width="300" height="200" class="img-rounded" alt="html-portfolio">
                     </a>
                 </div>
 
@@ -376,36 +351,28 @@
         </div>
     </section>
     <section id="contact">
+        <!--
+            <div class="header">
         <div class="row">
-            <br />
-            <div class="heading text-center">
-            <h2 style="font-family: Georgia, 'Times New Roman', Times, serif; color: #652154;">Let's Get in Touch</h2>
-        </div>
-            <br />
-            <div class="col-lg-4 col-sm-6 text-center">
-                <p>
-                    <a href="http://linkedin.com/in/mansi-patel-7aa673b0?trk=nav_responsive_tab_profile">
+            <div class="col-md-4 col-md-offset-6">
+                <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />  <br />
+                 <a href="http://linkedin.com/in/mansi-patel-7aa673b0?trk=nav_responsive_tab_profile">
                         <i class="fa fa-linkedin-square fa-3x wow bounceIn" style="color: dodgerblue"></i>
-                        <br />
-                        Mansi Patel</a>
-                </p>    
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <p>
-                    <a href="mailto:mpatel.y@gmail.com">
+                        <br /> Mansi Patel</a>
+                </div>
+            <div class="col-md-4 col-md-offset-6">
+               <a href="mailto:mpatel.y@gmail.com">
                         <i class="fa fa-envelope-o fa-3x wow bounceIn " style="color: red"></i>
-                        <br />
-                        mpatel.y@gmail.com</a>
-                </p>
-            </div>
-            <div class="col-lg-4 col-sm-6 text-center">
-                <p>
-                    <a href="https://github.com/mansipatel108">
+                        <br /> mpatel.y@gmail.com</a>
+                </div>
+            <div class="col-md-4 col-md-offset-6">
+              <a href="https://github.com/mansipatel108">
                         <i class="fa fa-github fa-3x wow bounceIn" style="color: rebeccapurple"></i>
                         <br />
                         Mansi Patel</a>
-                </p>
-            </div>
+                 </div>
         </div>
+    </div>
+        --->
     </section>
 </asp:Content>

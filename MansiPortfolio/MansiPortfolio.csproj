@@ -70,15 +70,19 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Images\bi.png" />
     <Content Include="Images\cake.png" />
     <Content Include="Images\contact-me.png" />
     <Content Include="Images\dental.png" />
     <Content Include="Images\home9.jpg" />
+    <Content Include="Images\html.png" />
     <Content Include="Images\image1.png" />
     <Content Include="Images\images4.jpg" />
     <Content Include="Images\lesso12.png" />
     <Content Include="Images\my.jpg" />
+    <Content Include="Images\net.png" />
     <Content Include="Images\pavliks-logo.jpg" />
+    <Content Include="Images\sql.png" />
     <Content Include="Images\todos.png" />
     <Content Include="packages.config" />
     <Content Include="Site.Master" />
